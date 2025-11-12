@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Malgun Gothic", "맑은 고딕", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+}
+
+main {
+  width: 1140px;
+  margin: auto;
+}
+
+header {
+  height: 170px;
+  display: flex;
+  flex-basis: 25%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+table {
+  background-color: silver;
+}
+
+main {
+  flex-basis: 50%;
+}
+
+footer {
+  flex-basis: 25%;
+  background-color: gainsboro;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer div {
+  justify-content: end;
+  align-items: end;
+}
+
+main>section {
+  padding: 23px 8px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 3px solid gray;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background: darkred;
+  border-bottom: 1px solid darkblue;
+  padding: 23px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0 0 12px;
+  font-size: 32px;
+}
+
+header nav ol {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  gap: 23px;
+}
+
+
+footer {
+  border-top: 3px solid gold;
+  padding: 23px 8px;
+}
+
+footer h2 {
+  margin-top: 0;
+}
+
+footer label {
+  font-weight: 600;
+}
+
+footer input {
+  width: 100%;
+  margin-top: 8px;
+  padding: 10px 12px;
+  background: gold;
+  border-radius: 8px;
+}
+
+footer button {
+  margin-top: 8px;
+  background-color: black;
+  color: gold;
+  border: 0;
+  padding: 8px 23px;
+  font-weight: 700;
+  cursor: pointer;
+}

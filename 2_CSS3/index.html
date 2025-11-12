@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>개발자 자기소개 웹페이지-현동근</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="https://kit.fontawesome.com/05f160bf87.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <h1>개발자 자기소개 웹페이지 - 현동근</h1>
+    <nav>
+      <ol>
+        <li><a href="#aboutMe">About Me (자기소개)</a></li>
+        <br>
+        <li><a href="#education">Education / Skill (학력/기술)</a></li>
+        <br>
+        <li><a href="#project">Project (프로젝트)</a></li>
+        <br>
+        <li><a href="#contact">Contact Me (연락하기)</a></li>
+      </ol>
+    </nav>
+  </header>
+
+
+  <main>
+    <!-- 자기소개 -->
+    <section id="aboutMe">
+      <h2>About Me (자기소개)</h2>
+      <p>웹 개발자로 밥 먹고 살고 싶은 현동근임다.<br>
+        Java, HTML, CSS를 공부했고, 프론트엔드에 흥미를 가지고 있슴다.
+      </p>
+
+      <!-- 사진 -->
+      <img src="/images/프로필사진.jpg" alt="프로필 사진*왜 이런 거 밖에 없지*" width="150">
+      <img src="/images/코딩하는모습.jpg" alt="코딩하는 모습*윤조 이시키 언제 이런 걸*" width="150">
+      <img src="/images/자바로고.png" alt="자바 로고*인터넷에서 따옴*" width="150">
+    </section>
+
+    <hr>
+
+    <!-- 학력/기술 -->
+    <section id="education">
+      <h2>Education / Skills (학력 / 기술)</h2>
+
+      <h3>교육 및 학력 사항</h3>
+      <table border="1">
+        <tr>
+          <th>기간</th>
+          <th>학교/학원</th>
+          <th>배운 내용</th>
+        </tr>
+
+        <tr>
+          <td>2022 ~ 2023</td>
+          <td>강원대학교</td>
+          <td>C언어, 파이썬 자바 기초</td>
+        </tr>
+
+        <tr>
+          <td>2025</td>
+          <td>KH 정보교육원</td>
+          <td>자바 웹 개발, 데이터베이스, HTML/CSS</td>
+        </tr>
+      </table>
+
+      <h3>보유 기술 (Skills)</h3>
+      <ul>
+        <li>Java / HTML / CSS / SQL</li>
+        <li>chat gpt 부려먹기</li>
+        <li>GitHub 사용</li>
+      </ul>
+    </section>
+
+    <hr>
+
+    <!-- 프로젝트 -->
+    <section id="project">
+      <h2>Project (프로젝트)</h2>
+
+      <article>
+        <h3> 프로젝트 - 당근 웹사이트 외견 따라 만들기</h3>
+        <p>HTML와 CSS를 이용해 당근 거래 게시판을 구현함.<br>
+          (지역 선택, 물품 검색 기능 구현)</p>
+      </article>
+
+      <article>
+        <h3> 팀 미니 프로젝트 - ToyFactory</h3>
+        <p>Java의 Collection 파트를 활용하여<br>
+          1. 장난감의 정보를 효과적으로 관리하고 출력할 수 있는 클래스를 구현.
+          <br>
+          2. 사용자로부터 입력을 받고, 입력에 따라 적절한 동작을 수행하는 메서드를
+          작성
+          <br>
+          3. 컬렉션을 활용하여 장난감 정보를 저장하고 관리
+          <br>
+          4. 장난감의 제조일에 따라 정렬하고, 연령별로 사용 가능한 장난감을 출력하는
+          기능을 구현함.
+        </p>
+      </article>
+
+    </section>
+  </main>
+
+
+  <footer id="contact">
+    <h2>Contact Me (연락하기)</h2>
+
+    <p>스카우트 환영. 고용할 생각 있으신 분 연락처 Give me.</p>
+    <br>
+
+    <form action="#어따 보내지" method="post">
+      <div>
+        <label> - 이름</label>
+        <input type="text" id="name" placeholder="이름을 입력하세요">
+      </div>
+
+      <br>
+
+      <div>
+        <label> - 이메일</label>
+        <br>
+        <input type="email" id="email" placeholder="abc1234@Xmail.com">
+      </div>
+
+      <br>
+
+      <div>
+        <label> - 연락처</label>
+        <br>
+        <input type="tel" id="phone" placeholder="010-0000-0000">
+      </div>
+
+      <br>
+
+      <button type="submit">제출하기</button>
+    </form>
+  </footer>
+
+</body>
+
+</html>
