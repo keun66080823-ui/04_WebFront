@@ -91,5 +91,4 @@ document.querySelector("#btn2").addEventListener("click", () => {
 
   // ul의 다음 형제 요소
   console.log( ul.nextElementSibling );
-
 });
