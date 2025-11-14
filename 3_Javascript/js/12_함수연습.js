@@ -40,5 +40,11 @@ function bigger(a, b){
 num[3].addEventListener("click", (x, y) => {
   x = 8;
   y = 23;
-  console.log(bigger(x,y)+"!");
-})
+  console.log(bigger(x,y));
+});
+
+// 5번 : 문자열을 매개변수로 받아 문자열의 길이를 출력하는 함수를 선언 및 정의하고 호출하시오
+num[4].addEventListener("click", function length(text) {
+  text = "동해물과백두산이마르고닳도록";
+  
+});
