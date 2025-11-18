@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 85%;
+  height: 800px;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+
+.box {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box > input {
+  width: 44%;
+  height: 44%;
+}
