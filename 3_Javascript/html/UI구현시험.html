@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UI구현 시험 - 현동근</title>
+  <link href="../css/UI구현시험.css" rel="stylesheet">
+</head>
+<body>
+  <div class="control">
+    너비 : <span style="margin: 10px;"></span><input id="w" type="number" value="200" style="width: 80px; border-radius: 5px;">px
+    <span style="margin: 40px;"></span>
+    높이 : <input id="h" type="number" value="400" style="width: 80px; border-radius: 5px;">px
+    
+    <br><br>
+
+    글자 크기 : <input id="fontSize" type="number" value="20" style="width: 80px; border-radius: 5px;">px
+    <span style="margin: 34px;"></span>
+    굵기 : 
+    <label>보통<input type="radio" name="fontWeight" value="50" checked></label>
+    <label>굵게<input type="radio" name="fontWeight" value="500"></label>
+    
+    <br><br>
+    
+    글자색 : <input id="fontColor" type="text" value="red">
+    배경색 : <input id="backColor" type="text" value="yellow">
+
+    <br><br>
+    
+    가로정렬 : 
+    <label><input type="radio" name="align" value="left" checked> 왼쪽</label>
+    <label><input type="radio" name="align" value="center"> 가운데</label>
+    <label><input type="radio" name="align" value="right"> 오른쪽</label>
+    
+    <br><br>
+    
+    세로정렬 : 
+    <label><input type="radio" name="height" value="flex-start" checked> 위</label>
+    <label><input type="radio" name="height" value="center"> 가운데</label>
+    <label><input type="radio" name="height" value="flex-end"> 아래</label>
+
+    <br><br>
+
+    출력 문자열 : <input type="text" id="content">
+
+    <br><br>
+
+    <button id="create">적용하기</button>
+  </div>
+
+  <div class="container"></div>
+
+  <script src="../js/UI구현시험.js"></script>
+</body>
+</html>

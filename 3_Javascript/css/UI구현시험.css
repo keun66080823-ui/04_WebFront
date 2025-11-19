@@ -5,7 +5,7 @@
 .container {
   width: 100%;
   height: auto;
-  border: 1px solid black;
+  border: 0px solid black;
   padding: 10px;
   display: flex;
   flex-wrap: wrap;
@@ -13,13 +13,26 @@
 }
 
 .box {
-  border: 1px solid black;
+  border: 3px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .box > input {
-  width: 90%;
-  height: 70%;
+  width: 100%;
+  height: 100%;
 }
+
+.control {
+  justify-content: center;
+  align-items: center;
+}
+
+.a, .b, .c, .d, .e, .f, .g{
+  
+  justify-content: center;
+}
+
+
+
